@@ -13,6 +13,9 @@
 		FC28453E2398CB080059C737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC28453C2398CB080059C737 /* Main.storyboard */; };
 		FC2845402398CB090059C737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC28453F2398CB090059C737 /* Assets.xcassets */; };
 		FC2845432398CB090059C737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2845412398CB090059C737 /* LaunchScreen.storyboard */; };
+		FC28454B2398D5E40059C737 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC28454A2398D5E40059C737 /* TableViewCell.swift */; };
+		FC807E65239901F500F77586 /* SetAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC807E64239901F500F77586 /* SetAlarmViewController.swift */; };
+		FC807E672399082400F77586 /* alarms.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC807E662399082400F77586 /* alarms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FC28453F2398CB090059C737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC2845422398CB090059C737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC2845442398CB090059C737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC28454A2398D5E40059C737 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FC807E64239901F500F77586 /* SetAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAlarmViewController.swift; sourceTree = "<group>"; };
+		FC807E662399082400F77586 /* alarms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarms.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				FC2845362398CB070059C737 /* AppDelegate.swift */,
 				FC2845382398CB080059C737 /* SceneDelegate.swift */,
 				FC28453A2398CB080059C737 /* ViewController.swift */,
+				FC807E662399082400F77586 /* alarms.swift */,
+				FC28454A2398D5E40059C737 /* TableViewCell.swift */,
+				FC807E64239901F500F77586 /* SetAlarmViewController.swift */,
 				FC28453C2398CB080059C737 /* Main.storyboard */,
 				FC28453F2398CB090059C737 /* Assets.xcassets */,
 				FC2845412398CB090059C737 /* LaunchScreen.storyboard */,
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC28453B2398CB080059C737 /* ViewController.swift in Sources */,
+				FC807E65239901F500F77586 /* SetAlarmViewController.swift in Sources */,
+				FC28454B2398D5E40059C737 /* TableViewCell.swift in Sources */,
+				FC807E672399082400F77586 /* alarms.swift in Sources */,
 				FC2845372398CB070059C737 /* AppDelegate.swift in Sources */,
 				FC2845392398CB080059C737 /* SceneDelegate.swift in Sources */,
 			);
